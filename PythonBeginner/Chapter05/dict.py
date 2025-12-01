@@ -5,3 +5,10 @@ marks= {
 }
 
 print (marks["Ganesh"])
+print(marks.values())
+print(marks.keys())
+print(marks.items())
+
+
+marks.update({"Ganesh" : 99}) #use for  updating 
+print(marks)
